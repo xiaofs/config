@@ -1,2 +1,3 @@
 # config
-my config files
+## vim
+> this directory contains config file for vim
