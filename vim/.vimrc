@@ -15,10 +15,9 @@ set softtabstop=4
 set cinoptions=g0
 colors ron
 hi PmenuSel ctermbg=lightblue
-set encoding=cp936
 set fileencodings=utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 let mapleader=','
-set guifont=Monaco:h10
+" set guifont=Monaco:h10
 " }}}
 
 " plugins --- {{{
@@ -97,7 +96,7 @@ let g:ycm_key_list_select_completion=['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion=['<C-p>', '<Up>']
 " }}}
 " markdown-preview --- {{{
-let g:mkdp_path_to_chrome = "chrome.exe"
+" let g:mkdp_path_to_chrome = "chrome.exe"
 "}}}
 " }}}
 
@@ -116,7 +115,6 @@ augroup ft_cpp
     au!
     setlocal number
     autocmd FileType cpp setlocal foldmethod=marker
-augroup END
 augroup END
 " }}}
 "" rust --- {{{
