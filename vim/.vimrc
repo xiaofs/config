@@ -45,6 +45,7 @@ Plugin 'vim-scripts/vcscommand.vim'
 Plugin 'iamcco/markdown-preview.vim'
 Plugin 'vhdirk/vim-cmake'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'Rykka/riv.vim'
 
 call vundle#end() 
 filetype plugin indent on
